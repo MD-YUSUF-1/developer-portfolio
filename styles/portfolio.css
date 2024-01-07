@@ -3,6 +3,13 @@ body {
     font-family: 'Open Sans', sans-serif;
     font-family: 'Roboto', sans-serif;
 }
+.section-title{
+color: #181818;
+text-align: center;
+font-family: Open Sans;
+font-size: 35px;
+font-weight: 700;
+}
 
 /* primary parts */
 .button-primary {
@@ -20,12 +27,15 @@ body {
     color: #FD6E0A;
 }
 
-/* header styles */
 
+
+
+/* nav styles */
 nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0px 175px;
 }
 
 nav>ul {
@@ -50,3 +60,90 @@ nav a {
     font-weight: 800;
     font-family: Open Sans;
 }
+
+/* header styles */
+.header {
+    background-color: #FFF8F3;
+    background-image: url(../images/header_bg.png);
+    /* background-image: url(../images/developer.png); */
+    background-repeat: no-repeat;
+    background-position: bottom right ;
+}
+
+.banner {
+    padding: 30px 30px 0px 175px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.profile-picture {
+    width: 500px;
+    /* height: 500px; */
+}
+
+.banner-content{
+    max-width: 585px; 
+}
+
+.banner-greeting {
+    color: #474747;
+    font-family: Open Sans;
+    font-size: 45px;
+    margin-bottom: 0px;
+}
+
+.banner-heading {
+    color: #181818;
+    font-family: Open Sans;
+    font-size: 85px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+p {
+    color: #757575;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 400;
+}
+/* main section styles */
+
+main{
+    max-width: 1140px;
+    margin: 0px auto;
+}
+.section-description{
+    color: #757575;
+text-align: center;
+font-family: Open Sans;
+font-size: 18px;
+font-weight: 400;
+}
+.about{
+    padding: 131px 156px;
+    background-color: #FFF8F3;
+    border-radius: 10px;
+    margin: 130px 0px;
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+.account-title{
+    color: #757575;
+text-align: center;
+font-family: Open Sans;
+font-size: 20px;
+font-weight: 400;
+margin-bottom: 0px;
+}
+.acount-description{
+    color: #474747;
+font-family: Open Sans;
+font-size: 20px;
+font-weight: 700;
+margin-top: 0px;
+}
+
+
